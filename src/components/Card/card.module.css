@@ -1,0 +1,13 @@
+.card {
+  max-width: 20.8rem;
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .card {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 40rem;
+  }
+}

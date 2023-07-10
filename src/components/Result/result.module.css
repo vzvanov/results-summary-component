@@ -1,0 +1,106 @@
+.result {
+  background-color: var(--light-slate-blue-background);
+  background: linear-gradient(180deg, #7857ff 0%, #2e2be9 80%);
+  background: -webkit-linear-gradient(180deg, #7857ff 0%, #2e2be9 80%);
+  background: -moz-linear-gradient(180deg, #7857ff 0%, #2e2be9 80%);
+  border-radius: 0 0 2rem 2rem;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1rem;
+  color: var(--pale-blue);
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+.score {
+  margin: 1.1rem auto 0 auto;
+  background-color: var(--light-royal-blue-background);
+  background: linear-gradient(180deg, #4e21ca 0%, #2e2be9 80%);
+  background: -webkit-linear-gradient(180deg, #4e21ca 0%, #2e2be9 80%);
+  background: -moz-linear-gradient(180deg, #4e21ca 0%, #2e2be9 80%);
+
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.scoreUp {
+  height: 4rem;
+  font-size: 3.1rem;
+  font-weight: var(--fw-extrabold);
+  color: var(--white);
+  padding: 1.15rem 0 0 0;
+}
+
+.scoreDown {
+  height: 4rem;
+  font-size: 0.85rem;
+  color: var(--light-lavender);
+  padding: 1.4rem 0 0 0;
+}
+
+.greeting {
+  text-align: center;
+  margin-top: 1.15rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: var(--fw-extrabold);
+  color: var(--white);
+}
+
+.info {
+  font-size: 0.87rem;
+  font-weight: var(--fw-bold);
+  color: var(--light-lavender);
+  padding: 0.2rem 3.48rem 2.0rem 3.48rem;
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .result {
+    margin-left: 1.9rem;
+    border-radius: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.27rem;
+    font-weight: var(--fw-medium);
+    padding-top: 1.7rem;
+  }
+
+  .score {
+    margin: 1.4rem auto 0 auto;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .scoreUp {
+    height: 5rem;
+    font-size: 3.7rem;
+    padding: 1.8rem 0 0 0;
+  }
+
+  .scoreDown {
+    height: 5rem;
+    font-size: 0.85rem;
+    padding: 1.6rem 0 0 0;
+  }
+
+  .greeting {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .info {
+    font-size: 0.87rem;
+    padding: 0.4rem 3rem 2.3rem 2.9rem;
+    text-align: center;
+  }
+
+}

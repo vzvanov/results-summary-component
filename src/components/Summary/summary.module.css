@@ -1,0 +1,50 @@
+.cardSummary {
+  padding: 0 1.7rem;
+  font-size: 0.9rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: var(--fw-extrabold);
+  margin-top: 1.2rem;
+}
+
+.continue {
+  margin-top: 1.2rem;
+  line-height: 3.2rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: var(--fw-extrabold);
+  color: var(--white);
+  background-color: var(--dark-gray-blue);
+  border-radius: 1.5rem;
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .cardSummary {
+    max-width: 18rem;
+    border-radius: 0 1.5rem 1.5rem 0;
+
+    padding: 0 1.9rem;
+    font-size: 0.9rem;
+
+    -webkit-box-shadow: 33px 4px 57px -14px rgba(242, 245, 254, 1);
+    -moz-box-shadow: 33px 4px 57px -14px rgba(242, 245, 254, 1);
+    box-shadow: 33px 4px 57px -14px rgba(242, 245, 254, 1);
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+  }
+
+  .continue {
+    margin-top: 2rem;
+    line-height: 2.7rem;
+    font-size: 0.9rem;
+  }
+
+}
