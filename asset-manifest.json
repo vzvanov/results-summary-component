@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/results-summary-componentent/static/css/main.9b8c3915.css",
+    "main.js": "/results-summary-componentent/static/js/main.6e8f7c21.js",
+    "static/js/787.f3b96087.chunk.js": "/results-summary-componentent/static/js/787.f3b96087.chunk.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/results-summary-componentent/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "static/media/desktop-design.jpg": "/results-summary-componentent/static/media/desktop-design.86b7d4ddb0faf3a10287.jpg",
+    "static/media/mobile-design.jpg": "/results-summary-componentent/static/media/mobile-design.b9cd786c93710bce7e8e.jpg",
+    "index.html": "/results-summary-componentent/index.html",
+    "main.9b8c3915.css.map": "/results-summary-componentent/static/css/main.9b8c3915.css.map",
+    "main.6e8f7c21.js.map": "/results-summary-componentent/static/js/main.6e8f7c21.js.map",
+    "787.f3b96087.chunk.js.map": "/results-summary-componentent/static/js/787.f3b96087.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b8c3915.css",
+    "static/js/main.6e8f7c21.js"
+  ]
+}
