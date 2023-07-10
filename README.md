@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/vzvanov/results-summary-component](https://github.com/vzvanov/results-summary-component
+- Solution URL: [https://github.com/vzvanov/results-summary-component](https://github.com/vzvanov/results-summary-component)
 - Live Site URL: [https://vzvanov.github.io/results-summary-component](https://vzvanov.github.io/results-summary-component)
 
 ## My process
